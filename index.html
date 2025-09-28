@@ -35,6 +35,80 @@
             </ul>
         </div>
     </nav>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="rounded p-3 mb-3 bg-CinzaClaro">
+                    <h2>HTML</h2>
+                    <h5>
+                        HTML (HyperText Markup Language) é a linguagem usada para estruturar e organizar o conteúdo de páginas na web.
+                    </h5>
+                    <p>
+                        HTML é a base da construção de páginas na internet. Ele utiliza "tags" (etiquetas) para marcar diferentes tipos de conteúdo, como textos, imagens, links e vídeos. Essas tags dizem ao navegador como exibir cada elemento na tela. HTML não é uma linguagem de programação, mas sim de marcação, usada em conjunto com CSS (para estilos) e JavaScript (para interatividade).
+                    </p>
+                </div>
+                <div class="rounded p-3 mb-3 bg-CinzaClaro">
+                    <h2>CSS</h2>
+                    <h5>CSS (Cascading Style Sheets) é a linguagem usada para definir o estilo e o layout de páginas web.</h5>
+                    <p>CSS é responsável pela aparência visual das páginas na web. Ele permite aplicar cores, fontes, espaçamentos, bordas, tamanhos e posicionamentos aos elementos HTML. A sigla significa "Folhas de Estilo em Cascata", pois os estilos são aplicados em uma hierarquia que pode ser sobrescrita por regras mais específicas.</p>
+                </div>
+                <div class="rounded p-3 mb-3 bg-CinzaClaro">
+                    <h2>JavaScript</h2>
+                    <h5>CSS (Cascading Style Sheets) é a linguagem usada para definir o estilo e o layout de páginas web.</h5>
+                    <p>CSS é responsável pela aparência visual das páginas na web. Ele permite aplicar cores, fontes, espaçamentos, bordas, tamanhos e posicionamentos aos elementos HTML. A sigla significa "Folhas de Estilo em Cascata", pois os estilos são aplicados em uma hierarquia que pode ser sobrescrita por regras mais específicas.</p>
+                </div>
+            </div>
+            <aside class="col-sm-4">
+                <h2>Sobre</h2>
+                <h5>Seção Sobre</h5>
+                <p>Página interativa criada para estudo</p>
+                <h3 class="mt-4">Algumas Tecnologias</h3>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" id="n1" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">C++</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n2" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">C#</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n3" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">JavaScript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n4" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">Python</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n5" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n6" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n7" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n8" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">React</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n9" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">React-Native</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n10" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">PHP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="n11" href="#" onmouseover="marcar(this.id)" onmouseout="marcar(this.id)">Arduino</a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <footer class="mt-5 p-4 bg-AzulEscuro text-white text-center">
+        <p>Crysthofer | youtube.com | @crysthoferluis</p>
+    </footer>
+    <script>
+        const marcar=(obj)=>{
+            document.getElementById(obj).classList.toggle("active");
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
