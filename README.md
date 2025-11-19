@@ -24,13 +24,6 @@ Este projeto é um modelo de página web simples e responsiva, desenvolvido util
 
 ---
 
-## Como Visualizar
-
-1.  Clone este repositório para sua máquina local.
-2.  Abra o arquivo **`index.html`** (ou o nome do seu arquivo HTML) no seu navegador.
-
-*(Nota: O projeto espera por uma imagem chamada `logo.png` na pasta `imagens/` para o cabeçalho, mas funcionará mesmo sem ela.)*
-
 🧑‍💻 Autor
 Crysthofer
 
